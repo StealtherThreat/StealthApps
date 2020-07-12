@@ -1,0 +1,119 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+header,nav, article, aside, section, footer{
+	display: block;
+}
+
+.container{
+	width:1000px;
+	margin: 0px auto;
+}
+
+.header{
+	background-color: lightblue;
+	border-radius: 10px;
+}
+
+.logo{
+	width: 243px;
+	height: 140px;
+	float: left;
+}
+
+.navigation ul li{
+	margin: 64px 7px;
+	padding: 1px 5px;
+	float: left;
+	font-family: Arial;
+	background-color: skyblue;
+	border-radius: 10px;
+}
+
+.clear{
+	clear: both;
+}
+.section{
+	float: left;
+	width:700px;
+	margin: 2px 0px;
+	padding: 48px 0px;
+	background-color: skyblue;
+	border-radius: 10px;
+}
+.section header{
+	text-align: center;
+	font-family: arial;
+	text-decoration: underline;
+	color: red;
+	margin: 0px 30px;
+	padding: 20px 5px;
+	background-color: white;
+	border-radius: 10px;
+}
+
+.section p{
+	font-family: arial;
+	margin: 2px 30px;
+	padding: 10px 0px;
+}
+
+.section a{
+	text-decoration: none;
+}
+.section a li{
+	text-align: center;
+	font-family: arial;
+	text-decoration: none;
+	margin: 20px 250px;
+	padding: 20px 0px;
+	
+	background-color: white;
+	border-radius: 10px;
+	color: darkblue;
+
+}
+
+.aside{
+	float: left;
+	width:278px;
+	margin: 2px 1px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 20px;
+	padding-bottom: 378px;
+	background-color: #576DFF;
+	border-radius: 10px;
+}
+.aside h2{
+	font-family: arial;
+	color: white;
+	text-align: center;
+}
+.aside a {
+	text-decoration: none;
+}
+.aside a li{
+	font-family: arial;
+	text-align: center;
+	text-decoration: none;
+	margin: 20px 50px;
+	padding: 3px 10px;
+	background-color: lightgrey;
+	border-radius: 10px;
+}
+
+.footer{
+	float: left;
+	width:1000px;
+	text-align: center;
+	font-family: arial;
+	font-weight: bold;
+	color: white;
+	background-color: #576DFF;
+	border-radius: 10px;
+	margin: 1px 1px;
+	padding: 30px 0px;
+}
