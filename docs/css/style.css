@@ -23,7 +23,10 @@ body::-webkit-scrollbar{
 	font-size: 22pt;
 	font-weight: 600;
 }
-
+#navigation-logo{
+	height: 50px;
+	margin-left: 10px;
+}
 
 .row{
 	display: flex;
