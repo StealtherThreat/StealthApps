@@ -1,0 +1,105 @@
+*{
+	font-family: sans-serif;
+    box-sizing: border-box;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+body{
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+}
+.app-row{
+    display: flex;
+    margin: 5%;
+    margin-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: white;
+	border-radius: 10px;
+    box-shadow: rgb(150,150,150) 2px 2px 30px;
+    vertical-align: middle;
+}
+.app-img{
+    flex: 25%;
+    text-align: center;
+}
+.app-img>img{
+    width: 128px;
+}
+.app-img>p{
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 15pt;
+}
+.app-info{
+    flex: 75%;
+}
+#app-info-accordion{
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+#app-info-accordion:hover{
+    box-shadow: rgb(230,230,230) 2px 2px 30px;
+}
+.card{
+    border-radius: 10px;
+    text-align:left;
+}
+.card-header{
+    background-color: white;
+    box-shadow: rgb(200,200,200) 2px 2px 30px;
+}
+.mb-0>button{
+    background-color: white;
+    border: none;
+    outline: none;
+    text-align: left;
+    font-size: 15pt;
+}
+.mb-0>button:focus{
+    outline: none;
+}
+.down-btn{
+    height: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 13pt;
+    color:black;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid rgb(220,220,220);
+}
+.down-btn:focus{
+    outline: none;
+}
+.down-btn:hover{
+    box-shadow: rgb(230,230,230) 2px 2px 30px;
+}
+.down-btn:active{
+    color: white;
+    background-color: rgb(55, 105, 121);
+}
+#app-screenshots{
+    background-color: rgb(66, 66, 66);
+}
+.carousel-inner{
+    margin: auto;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+.carousel-inner>div>img{
+    max-height: 500px;
+    object-fit: contain;
+}
+@media screen and (max-width:800px){
+    .app-row{
+        display: block;
+    }
+    .app-info{
+        text-align: center;
+    }
+}
