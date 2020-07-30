@@ -35,3 +35,9 @@ body::-webkit-scrollbar{
     font-size: 15pt;
     color: steelblue;
 }
+@media screen and (max-width: 800px) {
+    #about{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+  }
