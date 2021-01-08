@@ -12,7 +12,7 @@ body{
 .app-row{
     display: flex;
     margin: 5%;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     padding-top: 50px;
     padding-bottom: 50px;
     padding-right: 20px;
@@ -38,11 +38,11 @@ body{
 .app-info{
     flex: 75%;
 }
-#app-info-accordion{
+.application-content{
     margin-bottom: 20px;
     border-radius: 10px;
 }
-#app-info-accordion:hover{
+.application-content:hover{
     box-shadow: rgb(230,230,230) 2px 2px 30px;
 }
 .card{
