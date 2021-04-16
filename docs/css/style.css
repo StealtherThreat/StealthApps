@@ -33,7 +33,6 @@ body::-webkit-scrollbar{
 	width: max-content;
 }
 .updates-cell{
-
 	padding: 20px;
 	border-radius: 10px;
 	box-shadow: rgb(150,150,150) 2px 2px 30px;
@@ -89,5 +88,8 @@ body::-webkit-scrollbar{
 	.cell {
 	  flex: 100%;
 	  max-width: 100%;
+	}
+	.updates{
+		max-width: 85%;
 	}
   }
