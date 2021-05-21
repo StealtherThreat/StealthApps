@@ -11,6 +11,15 @@ body{
 body::-webkit-scrollbar{
     display: none;
 }
+.header-block{
+	box-shadow: rgb(120,120,120) 2px 2px 30px;
+	background-color: rgb(255, 255, 255);
+	color:indianred;
+	height: 70px;
+	width: 100%;
+	padding: 0px 15px;
+	font-size: xx-large;
+}
 
 #navigation-bar{
 	box-shadow: rgb(120,120,120) 2px 2px 30px;
@@ -91,5 +100,8 @@ body::-webkit-scrollbar{
 	}
 	.updates{
 		max-width: 85%;
+	}
+	.header-block{
+		font-size: x-large;
 	}
   }

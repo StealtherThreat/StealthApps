@@ -23,7 +23,7 @@ body::-webkit-scrollbar{
     box-shadow: rgb(150,150,150) 2px 2px 30px;
     text-align: center;
 }
-#about-content{
+.about-content{
     text-align: center;
     margin: auto;
     margin-top: 20px;
