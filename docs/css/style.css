@@ -92,6 +92,9 @@ body::-webkit-scrollbar{
 	  flex: 50%;
 	  max-width: 50%;
 	}
+	.header-block{
+		font-size: large;
+	}
   }
   @media screen and (max-width: 800px) {
 	.cell {
@@ -102,6 +105,6 @@ body::-webkit-scrollbar{
 		max-width: 85%;
 	}
 	.header-block{
-		font-size: x-large;
+		font-size: large;
 	}
   }
