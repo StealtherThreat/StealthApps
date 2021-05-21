@@ -105,6 +105,6 @@ body::-webkit-scrollbar{
 		max-width: 85%;
 	}
 	.header-block{
-		font-size: large;
+		font-size: small;
 	}
   }
